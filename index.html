@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple</title>
+    <link rel="shortcut icon" href="Pictures/Favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAV-BAR -->
+    <header class="nav-bar">
+      <div class="logo">
+        <a
+          href="/"
+          data-globalnav-item-name="apple"
+          data-analytics-title="apple home"
+          aria-label="Apple"
+          class="globalnav-link globalnav-link-apple"
+        >
+          <span class="globalnav-image-compact globalnav-link-image"
+            ><svg
+              fill="#dadada"
+              height="48"
+              viewBox="0 0 17 48"
+              width="17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m15.5752 19.0792a4.2055 4.2055 0 0 0 -2.01 3.5376 4.0931 4.0931 0 0 0 2.4908 3.7542 9.7779 9.7779 0 0 1 -1.2755 2.6351c-.7941 1.1431-1.6244 2.2862-2.8878 2.2862s-1.5883-.734-3.0443-.734c-1.42 0-1.9252.7581-3.08.7581s-1.9611-1.0589-2.8876-2.3584a11.3987 11.3987 0 0 1 -1.9373-6.1487c0-3.61 2.3464-5.523 4.6566-5.523 1.2274 0 2.25.8062 3.02.8062.734 0 1.8771-.8543 3.2729-.8543a4.3778 4.3778 0 0 1 3.6822 1.841zm-6.8586-2.0456a1.3865 1.3865 0 0 1 -.2527-.024 1.6557 1.6557 0 0 1 -.0361-.337 4.0341 4.0341 0 0 1 1.0228-2.5148 4.1571 4.1571 0 0 1 2.7314-1.4078 1.7815 1.7815 0 0 1 .0361.373 4.1487 4.1487 0 0 1 -.9867 2.587 3.6039 3.6039 0 0 1 -2.5148 1.3236z"
+              ></path>
+            </svg>
+          </span>
+        </a>
+      </div>
+      <div class="nav-bar-links">
+        <ul class="nav-links">
+          <li><a href="#">Store</a></li>
+          <li><a href="#">Mac</a></li>
+          <li><a href="#">iPad</a></li>
+          <li><a href="#">iPhone</a></li>
+          <li><a href="#">Watch</a></li>
+          <li><a href="#">Visions</a></li>
+          <li><a href="#">AirPods</a></li>
+          <li><a href="#">TV & Home</a></li>
+          <li><a href="#">Entertainment</a></li>
+          <li><a href="#">Accesorries</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-icons">
+        <i class="bx bx-search"></i>
+        <i class="bx bx-shopping-bag"></i>
+        <i class="bx bx-menu" id="menu-btn"></i>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+
+    <!-- iPad -->
+    <div class="ipad-container">
+      <div class="ipad-text">
+        <h1>iPad Pro</h1>
+        <p>Unbelievably thin. Incredibly&nbsp;powerful.</p>
+        <div class="ipad-btns">
+          <button id="btn1">Learn more</button>
+          <button id="btn2">Buy</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- iPhone -->
+    <div class="iphone-container">
+      <div class="iphone-text">
+        <h1>iPhone</h1>
+        <p>
+          Our most powerful cameras yet. <br />
+          Ultrafast chips. And USB-C
+        </p>
+        <div class="iphone-btns">
+          <button id="btn1">Learn more</button>
+          <button id="btn2">Shop iPhone</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grid -->
+    <div class="grid-container">
+      <div class="grid-item one">
+        <div class="grid-text-one">
+          <h3 class="grid-item-heading">
+            The best AI PC <br />
+            is a Mac
+          </h3>
+          <button class="grid-item-btn">Explore Mac for work</button>
+        </div>
+      </div>
+      <div class="grid-item two">
+        <div class="grid-text-two">
+          <h3 class="grid-item-heading">Vision Pro</h3>
+          <p class="grid-text-para">The era of special computing is here</p>
+          <button class="grid-item-btn">Learn more</button>
+          <button class="grid-item-btn btn2">Buy</button>
+        </div>
+      </div>
+      <div class="grid-item three">
+        <div class="grid-text-three">
+          <h3 class="grid-item-heading">Apple Intelligence</h3>
+          <p class="grid-text-para">AI for the rest of us.</p>
+          <p>Coming in beta this fall<sup>1</sup></p>
+          <button class="grid-item-btn">Learn more</button>
+          <button class="grid-item-btn btn2">Watch the film</button>
+        </div>
+      </div>
+      <div class="grid-item four">
+        <div class="grid-text-four">
+          <button class="grid-item-btn" id="btn1">Learn more</button>
+          <button class="grid-item-btn btn2">Watch the film</button>
+        </div>
+      </div>
+      <div class="grid-item five">
+        <div class="grid-text-five">
+          <h3 class="grid-item-heading">Card</h3>
+          <p class="grid-text-para">
+            Get up to 3% Daily Cash back <br />
+            with every purchase.
+          </p>
+          <button class="grid-item-btn">Learn more</button>
+          <button class="grid-item-btn btn2">Apply now</button>
+        </div>
+      </div>
+      <div class="grid-item six">
+        <div class="grid-text-six">
+          <h3 class="grid-item-heading">Trade In</h3>
+          <p class="grid-text-para">
+            Get $170-$620 in credit when you <br />
+            trade in iPhone 11 or higher.<sup>2</sup>
+          </p>
+          <button class="grid-item-btn">Get your estimate</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slider Gallery -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="Pictures/Slider Image 1.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="Pictures/Slider Image 2.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="Pictures/Slider Image 3.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="Pictures/Slider Image 4.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="Pictures/Slider Image 5.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="Pictures/Slider Image 6.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="Pictures/Slider Image 7.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="Pictures/Slider Image 8.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="Pictures/Slider Image 9.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="Pictures/Slider Image 10.jpg" alt="" />
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-details">
+        <p>
+          * Available for Qualified Purchasers only. Qualified Purchasers
+          receive an Apple Gift Card when they purchase an Eligible Product at a
+          Qualifying Location through September 30, 2024. Gift card values may
+          vary by Eligible Product. Only one Apple Gift Card per Eligible
+          Product per Qualified Purchaser. Offer subject to availability. While
+          supplies last. Qualified Purchasers shall receive a discount equal to
+          the value of the Apple Gift Card off the price of the Eligible
+          Product, but will be charged for all items in their cart, including
+          the Apple Gift Card. Important notice regarding the checkout receipt
+          and monthly statement for Apple Card Monthly Installments (ACMI)
+          purchases with this promotion: Qualified Purchasers selecting ACMI (a
+          0% APR payment option available only in the U.S.) as payment type at
+          checkout shall receive a discount equal to the value of the Apple Gift
+          Card off the price of the Eligible Product. This will result in one
+          ACMI installment plan over 12 months for the Eligible Product
+          discounted by the instant credit, and a second ACMI installment plan
+          over 12 months for the full price of the Apple Gift Card. The total
+          combined amount charged over the two separate ACMI installment plans
+          will reflect the original full retail price of the Eligible Product.
+          Separately, Qualified Purchasers will receive and be charged for the
+          Apple Gift Card in the amount of the applicable discount off the
+          Eligible Product. Apple Card Monthly Installments (ACMI) is a 0% APR
+          payment option that is only available if you select it at checkout in
+          the U.S. for eligible products purchased at Apple Store locations,
+          apple.com, the Apple Store app, or by calling 1-800-MY-APPLE, and is
+          subject to credit approval and credit limit. See
+          support.apple.com/kb/HT211204 for more information about eligible
+          products. APR ranges may vary based on when you accepted an Apple
+          Card. Cardholders who accept an Apple Card on and or after February 1,
+          2024: Variable APRs for Apple Card, other than ACMI, range from 19.24%
+          to 29.49% based on creditworthiness. Rates as of February 1, 2024.
+          Existing cardholders: See your Customer Agreement for applicable rates
+          and fee. If you buy an ACMI-eligible product by choosing to pay in
+          full with Apple Card (instead of using ACMI), that purchase is subject
+          to the Apple Card variable APR, not 0% APR. Taxes and shipping on ACMI
+          purchases are subject to the variable APR, not 0% APR. When you buy an
+          iPhone with ACMI, you’ll need to select AT&T, T-Mobile, or Verizon as
+          your carrier when you check out. An iPhone purchased with ACMI is
+          always unlocked, so you can switch carriers at any time. ACMI is not
+          available for purchases made online at the following special stores:
+          Apple Employee Purchase Plan; participating corporate Employee
+          Purchase Programs; Apple at Work for small businesses; Government and
+          Veterans and Military Purchase Programs; or on refurbished devices.
+          The last month’s payment for each product will be the product’s
+          purchase price, less all other payments at the monthly payment amount.
+          ACMI financing is subject to change at any time for any reason,
+          including but not limited to installment term lengths and eligible
+          products. See support.apple.com/kb/HT211204 for information about
+          upcoming changes to ACMI financing. See the Apple Card Customer
+          Agreement for more information about ACMI financing. Apple Card is
+          issued by Goldman Sachs Bank USA, Salt Lake City Branch. Available for
+          qualifying applicants in the United States. If you reside in the U.S.
+          territories, please call Goldman Sachs at 877-255-5923 with questions
+          about accessing this offer or applying for Apple Card. This offer
+          cannot be combined with the Apple Employee Purchase Plan or business
+          loyalty pricing. Additional restrictions apply. View full terms and
+          conditions of offer here.
+        </p>
+        <p>
+          1. Apple Intelligence will be available in beta on iPhone 15 Pro,
+          iPhone 15 Pro Max, and iPad and Mac with M1 and later, with Siri and
+          device language set to U.S. English, as part of iOS 18, iPadOS 18, and
+          macOS Sequoia this fall.
+        </p>
+        <p>
+          2. Trade-in values will vary based on the condition, year, and
+          configuration of your eligible trade-in device. Not all devices are
+          eligible for credit. You must be at least 18 years old to be eligible
+          to trade in for credit or for an Apple Gift Card. Trade-in value may
+          be applied toward qualifying new device purchase, or added to an Apple
+          Gift Card. Actual value awarded is based on receipt of a qualifying
+          device matching the description provided when estimate was made. Sales
+          tax may be assessed on full value of a new device purchase. In-store
+          trade-in requires presentation of a valid photo ID (local law may
+          require saving this information). Offer may not be available in all
+          stores, and may vary between in-store and online trade-in. Some stores
+          may have additional requirements. Apple or its trade-in partners
+          reserve the right to refuse or limit quantity of any trade-in
+          transaction for any reason. More details are available from Apple’s
+          trade-in partner for trade-in and recycling of eligible devices.
+          Restrictions and limitations may apply.
+        </p>
+        <p>
+          Available in the U.S. on apple.com, in the Apple Store app, and at
+          Apple Stores.
+        </p>
+        <p>
+          To access and use all Apple Card features and products available only
+          to Apple Card users, you must add Apple Card to Wallet on an iPhone or
+          iPad that supports and has the latest version of iOS or iPadOS. Apple
+          Card is subject to credit approval, available only for qualifying
+          applicants in the United States, and issued by Goldman Sachs Bank USA,
+          Salt Lake City Branch.
+        </p>
+        <p>
+          If you reside in the U.S. territories, please call Goldman Sachs at
+          877-255-5923 with questions about Apple Card.
+        </p>
+        <p>
+          Learn more about how Apple Card applications are evaluated at
+          support.apple.com/kb/HT209218.
+        </p>
+        <p>A subscription is required for Apple TV+.</p>
+        <p>
+          A subscription is required for Apple Arcade, Apple Fitness+, and Apple
+          Music.
+        </p>
+      </div>
+
+      <div class="dropdown-section">
+        <div class="dropdown-header">
+          Shop and Learn
+          <span class="arrow"><i class="bx bx-chevron-down"></i></span>
+        </div>
+        <ul class="dropdown-content">
+          <li>Store</li>
+          <li>Mac</li>
+          <li>iPad</li>
+          <li>iPhone</li>
+          <li>Watch</li>
+          <li>Vision</li>
+          <li>AirPods</li>
+          <li>TV & Home</li>
+          <li>AirTag</li>
+          <li>Accessories</li>
+          <li>Gift Cards</li>
+        </ul>
+      </div>
+
+      <div class="dropdown-section">
+        <div class="dropdown-header">
+          Apple Wallet
+          <span class="arrow"><i class="bx bx-chevron-down"></i></span>
+        </div>
+        <ul class="dropdown-content">
+          <li>Wallet</li>
+          <li>Apple Card</li>
+          <li>Apple Pay</li>
+          <li>Apple Cash</li>
+        </ul>
+      </div>
+
+      <div class="dropdown-section">
+        <div class="dropdown-header">
+          Account
+          <span class="arrow"><i class="bx bx-chevron-down"></i></span>
+        </div>
+        <ul class="dropdown-content">
+          <li>Manage Your Apple ID</li>
+          <li>Apple Store Account</li>
+          <li>iCloud.com</li>
+        </ul>
+      </div>
+
+      <div class="dropdown-section">
+        <div class="dropdown-header">
+          Entertainment
+          <span class="arrow"><i class="bx bx-chevron-down"></i></span>
+        </div>
+        <ul class="dropdown-content">
+          <li>Apple One</li>
+          <li>Apple TV+</li>
+          <li>Apple Music</li>
+          <li>Apple Arcade</li>
+          <li>Apple Fitness+</li>
+          <li>Apple News+</li>
+          <li>Apple Podcasts</li>
+          <li>Apple Books</li>
+          <li>App Store</li>
+        </ul>
+      </div>
+
+      <div class="dropdown-section">
+        <div class="dropdown-header">
+          Apple Store
+          <span class="arrow"><i class="bx bx-chevron-down"></i></span>
+        </div>
+        <ul class="dropdown-content">
+          <li>Find a Store</li>
+          <li>Genius Bar</li>
+          <li>Today at Apple</li>
+          <li>Group Reservations</li>
+          <li>Apple Camp</li>
+          <li>Apple Store App</li>
+          <li>Certified Refurbished</li>
+          <li>Apple Trade In</li>
+          <li>Financing</li>
+          <li>Carrier Deals a Apple</li>
+          <li>Order Status</li>
+          <li>Shopping Help</li>
+        </ul>
+      </div>
+
+      <div class="dropdown-section">
+        <div class="dropdown-header">
+          For Business
+          <span class="arrow"><i class="bx bx-chevron-down"></i></span>
+        </div>
+        <ul class="dropdown-content">
+          <li>Apple and Business</li>
+          <li>Shop for Business</li>
+        </ul>
+      </div>
+
+      <div class="dropdown-section">
+        <div class="dropdown-header">
+          For Education
+          <span class="arrow"><i class="bx bx-chevron-down"></i></span>
+        </div>
+        <ul class="dropdown-content">
+          <li>Apple and Education</li>
+          <li>Shop for K-12</li>
+          <li>Shop for College</li>
+        </ul>
+      </div>
+
+      <div class="dropdown-section">
+        <div class="dropdown-header">
+          For Healthcare
+          <span class="arrow"><i class="bx bx-chevron-down"></i></span>
+        </div>
+        <ul class="dropdown-content">
+          <li>Apple in Healthcare</li>
+          <li>Mac in Healthcare</li>
+          <li>Health on Apple Watch</li>
+          <li>Health Records on iPhone and iPads</li>
+        </ul>
+      </div>
+
+      <div class="dropdown-section">
+        <div class="dropdown-header">
+          For Government
+          <span class="arrow"><i class="bx bx-chevron-down"></i></span>
+        </div>
+        <ul class="dropdown-content">
+          <li>Shop for Government</li>
+          <li>Shop for Veterans and Military</li>
+        </ul>
+      </div>
+
+      <div class="dropdown-section">
+        <div class="dropdown-header">
+          Apple Values
+          <span class="arrow"><i class="bx bx-chevron-down"></i></span>
+        </div>
+        <ul class="dropdown-content">
+          <li>Accessibility</li>
+          <li>Education</li>
+          <li>Environment</li>
+          <li>Inclusion and Diversity</li>
+          <li>Privacy</li>
+          <li>Racial Equity and Justice</li>
+          <li>Supply Chain</li>
+        </ul>
+      </div>
+
+      <div class="dropdown-section">
+        <div class="dropdown-header">
+          About Apple
+          <span class="arrow"><i class="bx bx-chevron-down"></i></span>
+        </div>
+        <ul class="dropdown-content">
+          <li>Newsroom</li>
+          <li>Apple Leadership</li>
+          <li>Career Opportunities</li>
+          <li>Investors</li>
+          <li>Ethics & Compliance</li>
+          <li>Events</li>
+          <li>Contact Apple</li>
+        </ul>
+      </div>
+
+      <div class="footer-expand">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h3>Shop and Learn</h3>
+            <ul>
+              <li>Store</li>
+              <li>Mac</li>
+              <li>iPad</li>
+              <li>iPhone</li>
+              <li>Watch</li>
+              <li>Vision</li>
+              <li>AirPods</li>
+              <li>TV & Home</li>
+              <li>AirTag</li>
+              <li>Accessories</li>
+              <li>Gift Cards</li>
+            </ul>
+            <h3>Apple Wallet</h3>
+            <ul>
+              <li>Wallet</li>
+              <li>Apple Card</li>
+              <li>Apple Pay</li>
+              <li>Apple Cash</li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Account</h3>
+            <ul>
+              <li>Manage Your Apple ID</li>
+              <li>Apple Store Account</li>
+              <li>iCloud.com</li>
+            </ul>
+            <h3>Entertainment</h3>
+            <ul>
+              <li>Apple One</li>
+              <li>Apple TV+</li>
+              <li>Apple Music</li>
+              <li>Apple Arcade</li>
+              <li>Apple Fitness+</li>
+              <li>Apple News+</li>
+              <li>Apple Podcasts</li>
+              <li>Apple Books</li>
+              <li>App Store</li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Apple Store</h3>
+            <ul>
+              <li>Find a Store</li>
+              <li>Genius Bar</li>
+              <li>Today at Apple</li>
+              <li>Group Reservations</li>
+              <li>Apple Camp</li>
+              <li>Apple Store App</li>
+              <li>Certified Refurbished</li>
+              <li>Apple Trade In</li>
+              <li>Financing</li>
+              <li>Carrier Deals at Apple</li>
+              <li>Order Status</li>
+              <li>Shopping Help</li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>For Business</h3>
+            <ul>
+              <li>Apple and Business</li>
+              <li>Shop for Business</li>
+            </ul>
+            <h3>For Education</h3>
+            <ul>
+              <li>Apple and Education</li>
+              <li>Shop for K-12</li>
+              <li>Shop for College</li>
+            </ul>
+            <h3>For Healthcare</h3>
+            <ul>
+              <li>Apple in Healthcare</li>
+              <li>Mac in Healthcare</li>
+              <li>Health on Apple Watch</li>
+              <li>Health Records on iPhone and iPad</li>
+            </ul>
+            <h3>For Government</h3>
+            <ul>
+              <li>Shop for Government</li>
+              <li>Shop for Veterans and Military</li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Apple Values</h3>
+            <ul>
+              <li>Accessibility</li>
+              <li>Education</li>
+              <li>Environment</li>
+              <li>Inclusion and Diversity</li>
+              <li>Privacy</li>
+              <li>Racial Equity and Justice</li>
+              <li>Supply Chain</li>
+            </ul>
+            <h3>About Apple</h3>
+            <ul>
+              <li>Newsroom</li>
+              <li>Apple Leadership</li>
+              <li>Career Opportunities</li>
+              <li>Investors</li>
+              <li>Ethics & Compliance</li>
+              <li>Events</li>
+              <li>Contact Apple</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <p class="footer-text">
+        More ways to shop: <span>Find an Apple Store</span> or
+        <span>other retailer</span> near you. Or call 1-800-MY-APPLE.
+      </p>
+
+      <div class="footer-text-div">
+        <p>United States</p>
+        <div class="footer-text-div-para">
+          <p>Copyright © 2024 Apple Inc. All rights reserved.</p>
+          <p>
+            Privacy Policy | Terms of Use | Sales and Refunds | Legal | Site Map
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
